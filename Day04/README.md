@@ -19,12 +19,14 @@ Configure Flow Logs: Go to the VPC dashboard and create flow logs for the desire
 # Generating Logs
 To generate logs, you can use the cloud shell and run a script to continuously hit a website and capture traffic:
 
+```bash
 curl ec2-35-173-233-127.compute-1.amazonaws.com
 while true
 do
   curl ec2-35-173-233-127.compute-1.amazonaws.com | grep -I nginx
   sleep 1
 done
+```
 This script will generate continuous traffic hitting the specified website, allowing you to observe and capture flow logs.
 
 By setting up VPC flow logs, you ensure visibility into your network traffic, aiding in security monitoring and compliance requirements.
