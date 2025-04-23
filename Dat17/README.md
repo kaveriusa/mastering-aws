@@ -1,9 +1,4 @@
-
-
-![19](https://github.com/saikiranpi/mastering-aws/assets/109568252/2551dbbd-8b39-4d16-b8eb-8cba408f67b8)
-
-
-
+# IAM ROLE SWITCHING AD INSTALLATION
 Role Switching Setup:
 1. Create IAM Role in Main Account:
 
